@@ -26,6 +26,10 @@ body {
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     font-size: 25px;
+    background-image: url(../images/content/main_bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 html,
 body {
@@ -48,8 +52,31 @@ body {
     margin: 0 auto;
 }
 .container_fluid {
-    width: 100%;
+    width: 1920px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.default_btn {
+    padding: 22px 33px;
+    background-color: #c7141d;
+    color: #fff;
+    font-size: 31px;
+    text-align: center;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    &:hover {
+        color: #c7141d;
+        background-color: #fff;
+        border: 1px solid #c7141d;
+    }
+}
+.title {
+    font-size: 49px;
+    font-weight: 500;
+    text-align: left;
+}
+.text {
+    color: #373737;
+    line-height: 38px;
+    text-align: left;
+}
