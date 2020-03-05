@@ -197,6 +197,21 @@
                 background-color: #fcecc9;
                 padding: 25px 70px 35px 25px;
                 text-align: left;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    background-color: $red;
+                    width: 70px;
+                    height: 70px;
+                    text-align: center;
+                    right: 0;
+                    bottom: 133px;
+                    background-image: url(../images/icons/shopping-cart.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    z-index: 3;
+                }
                 &_name {
                     font-size: 31px;
                     color: #171717;
@@ -218,9 +233,54 @@
             background-color: $red;
         }
     }
-    
 }
-
 // end bestsellers
 
 //start process
+.process_inner {
+    display: flex;
+    justify-content: space-between;
+    &_box {
+        padding-top: 70px;
+        padding-left: 130px;
+        &_title {
+            color: #171717;
+            font-size: 39px;
+            margin-bottom: 35px;
+        }
+        &_text {
+            color: #373737;
+            line-height: 38px;
+        }
+        &_list {
+            li {
+                margin-top: 100px;
+                color: #171717;
+                padding-left: 100px;
+                position: relative;
+                &:nth-child(1)::before {
+                    background-image: url(../images/icons/sprout.png);
+                }
+                &:nth-child(2)::before {
+                    background-image: url(../images/icons/sunrise.png);
+                }
+                &:nth-child(3)::before {
+                    background-image: url(../images/icons/sprinkler.png);
+                }
+                &:nth-child(4)::before {
+                    background-image: url(../images/icons/farmer.png);
+                }
+                &::before {
+                    content:"";
+                    position: absolute;
+                    width: 67px;
+                    height: 67px;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+              
+            }
+        }
+    }
+}
