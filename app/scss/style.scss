@@ -284,3 +284,134 @@
         }
     }
 }
+//end process
+
+//start workers
+.workers {
+    margin-top: 110px;
+    margin-bottom: 150px;
+    text-align: center;
+    &_title {
+        font-size: 39px;
+        color: #171717;
+        margin-bottom: 35px;
+    }
+    &_subtitle {
+        color: #373737;
+        margin-bottom: 70px;
+    }
+    &_slider_item {
+        max-width: 555px;
+        position: relative;
+        &_images {
+            min-height: 250px;
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &_box {
+            background-image: url(../images/content/worker_bg.jpg);
+            max-width: 359px;
+            text-align: center;
+            padding-top: 33px;
+            padding-bottom: 33px;
+            position: absolute;
+            bottom: -75px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            &_name {
+                font-size: 31px;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            &_link {
+                font-size: 20px;
+                color: #373737;
+                font-style: italic;
+                padding-bottom: 2px;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+    .slick-track {
+        height: 330px;
+    }
+    .slick-dots {
+        li {
+            display: inline-block;
+            color: transparent;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 2px solid $red;
+            outline: none;
+            &.slick-active {
+                background-color: $red;
+            }
+            & + li {
+                margin-left: 10px;
+            }
+             button {
+                 display: none;
+            }
+        }
+    }
+}
+//end workers
+
+//start clients
+.clients {
+    margin-bottom: 100px;
+    text-align: center;
+    &_title {
+        color: #171717;
+        font-size: 39px;
+        margin-bottom: 40px;
+    }
+    &_inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+        &_item {
+            max-width: 360px;
+            width: 100%;
+            background-color: $lightgreen;
+            padding: 40px 30px;
+            text-align: left;
+            color: #171717;
+            font-size: 20px;
+            position: relative;
+            min-height: 330px;
+            &_box {
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                bottom: -25px;
+                max-width: 290px;
+                width: 100%;
+                &_info {
+                    text-align: right;
+                    & a {
+                        color: #171717;
+                        padding-bottom: 2px;
+                        border-bottom: 1px solid #171717; 
+                        margin-bottom: 8px;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+    &_btn a {
+        color: #171717;
+        font-size: 31px;
+        padding: 20px 100px;
+        border: 1px solid #171717;
+        &:hover {
+            background-color: $red;
+        }
+    }
+}
+//end clients
