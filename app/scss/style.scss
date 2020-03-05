@@ -415,3 +415,98 @@
     }
 }
 //end clients
+// start partners
+.partners {
+    text-align: center;
+    margin-bottom: 80px;
+    &_title {
+        color: #171717;
+        font-size: 31px;
+        margin-bottom: 60px;
+    }
+    &_inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+// end partners
+
+//start place
+.place {
+    text-align: center;
+    margin-bottom: 80px;
+    &_title {
+        color: #171717;
+        font-size: 31px;
+        margin-bottom: 60px;
+    }
+    &_map {
+        position: relative;
+    }
+    &_box {
+        background-image: url(../images/content/map_bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 332px;
+        max-width: 455px;
+        padding-top: 45px;
+        padding-left: 40px;
+        padding-right: 70px;
+        font-size: 20px;
+        color: #000;
+        text-align: left;
+        position: absolute;
+        right: 30%;
+        top: 100px;
+        &_title {
+            margin-bottom: 25px;
+            font-size: 31px;
+        }
+        &_inner {
+            display: flex;
+            justify-content: stretch;
+            margin-bottom: 15px;
+            & div {
+                margin-right: 25px;
+            }
+            & a {
+                text-align: left;
+                color: #000;
+            }
+        }
+    }
+}
+//end place
+
+//start footer
+.footer {
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 429px;
+    &_inner {
+        margin-top: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_name {
+            max-width: 188px;
+            color: $green;
+            font-family: 'Ovo', serif;
+            font-size: 61px;
+            line-height: 92px;
+        }
+        &_address_title {
+            text-transform: uppercase;
+            color: #171717;
+            margin-bottom: 25px;
+        }
+        &_address_place {
+            color: #373737;
+            font-size: 20px;
+            line-height: 32px;
+        }
+    }
+}
+//end footer
