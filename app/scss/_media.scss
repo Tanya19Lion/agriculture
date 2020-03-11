@@ -1,0 +1,426 @@
+@media (max-width: 1260px) {
+    .place_map iframe {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .main_categories {
+        bottom: -340px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main_categories_inner {
+        width: 800px;
+        justify-content: center;
+        & div + div {
+            margin-left: 20px;
+        }
+    }
+    .main_categories_inner_veget, 
+    .main_categories_inner_fruit, 
+    .main_categories_inner_meat  {
+        min-height: 365px;
+        max-width: 300px;
+    }
+    .main_categories_inner_veget a, 
+    .main_categories_inner_fruit a, 
+    .main_categories_inner_meat a {
+        font-size: 50px;
+        margin-top: 315px;
+    }
+    .bestsellers_inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &_item {
+            margin-bottom: 20px;
+        }
+    }
+    .process_inner_box {
+        padding-left: 40px;
+    }
+    .workers_slider_item {
+        max-width: 460px;
+    }
+    .clients_inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &_item {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .workers_slider_item {
+        max-width: 555px;
+    }
+    .offer_box {
+        left: 30%;
+        transform: translateX(-30%);
+        padding: 35px 40px;
+    }
+    .process_inner_box {
+        padding-left: 20px;
+    }
+    .process_inner_images {
+        display: none;
+    }
+    .bestsellers {
+        margin-bottom: 60px;
+    }
+    .process_inner_box {
+        padding-top: 20px;
+    }
+    .process_inner_box_title {
+        text-align: center;
+    }
+    .process_inner_box_list li {
+        margin-top: 60px;
+    }
+    .partners_inner {
+        flex-wrap: wrap;
+    }
+    .partners_inner_item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .place_map iframe {
+        width: 700px;
+    }
+    .place_box {
+        top: 140px;
+    }
+}
+
+@media (max-width: 860px) { 
+    .offer_box_title.title {
+        font-size: 35px;
+    }
+    .offer_box_text.text {
+        line-height: 30px;
+        font-size: 22px;
+    }
+    .main_categories {
+        bottom: -760px;
+        &_inner {
+            flex-wrap: wrap;
+            width: 625px;
+            & div {
+                margin-bottom: 25px;   
+            }
+        }
+    }
+    .honey_sales {
+        margin-top: 920px;
+    }
+    .honey_sales_inner_box {
+        right: 15px;
+        left: 15px;
+    }
+    .footer {
+        min-height: 225px;
+    }
+    .footer_inner {
+        margin-top: 80px;
+    }
+    .footer_inner_name {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .footer_inner_address_title {
+        margin-bottom: 10px;
+    }
+    .footer_inner_btn.default_btn {
+        padding: 15px 18px;
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .place_map iframe {
+        width: 500px;
+    }
+    .place_box {
+        max-width: 390px;
+        padding-top: 25px;
+        padding-left: 30px;
+        padding-right: 40px;
+        top: 133px;
+    }
+    .footer_inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .footer_inner_btn {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 660px) { 
+    .default_btn {
+        padding: 15px 20px;
+        font-size: 23px;
+    }
+    .honey_inner_box_text {
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .honey_inner_box_title {
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .honey_sales {
+        margin-top: 1330px;
+    }
+    .main_categories {
+        bottom: -1200px;
+        &_inner {
+            width: 320px;
+            & div + div {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) { 
+    .workers {
+        margin-bottom: 60px;
+    }
+    .offer_box {
+        left: 35%;
+        transform: translateX(-20%);
+    }
+    .offer_box_title.title {
+        font-size: 25px;
+    }
+    .offer_box_text.text {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .text {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .honey_sales_inner_box {
+        padding: 20px;
+    }
+    .honey_sales {
+        margin-top: 1250px;
+    }
+    .main_categories {
+        bottom: -1090px;
+    }
+    .main_box {
+        top: 170px;
+        &_title {
+            font-size: 60px;
+        }
+        &_subtitle {
+            font-size: 22px;
+        }
+        &_btn {
+            font-size: 25px;
+            padding: 20px 30px;
+        }
+    }
+    .main_categories_inner_veget a, 
+    .main_categories_inner_fruit a, 
+    .main_categories_inner_meat a {
+        margin-top: 285px;
+    }
+    .honey_sales_inner {
+        min-height: 500px;
+    }
+    .offer {
+        min-height: 500px;
+    }
+    .partners_inner_item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 540px) {
+    .place_map iframe {
+        width: 400px;
+        height: 300px;
+    }
+    .place_box {
+        max-width: 375px;
+        top: 110%;
+    }
+    .partners {
+        margin-bottom: 20px;
+    }
+    .footer_inner {
+        margin-top: 360px;
+    }
+}
+
+@media (max-width: 499px) {
+    .offer_box {
+        left: 20%;
+        transform: translateX(-15%);
+    }
+    .offer {
+        margin-bottom: 20px;
+    }
+    .bestsellers_inner {
+        margin-bottom: 20px;
+    }
+    .bestsellers_title {
+        margin-bottom: 30px;
+    }
+    .workers_slider_item_box {
+        max-width: 270px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        bottom: -50px;
+    }
+    .workers_slider_item_box_name {
+       margin-bottom: 10px;
+    }
+    .workers {
+        margin-top: 65px;
+        margin-bottom: 20px;
+    }
+    .workers_subtitle {
+        margin-bottom: 35px;
+    }
+    .workers .slick-dots li {
+        width: 15px;
+        height: 15px;
+    }
+    .workers .slick-dots li+li {
+        margin-left: 7px;
+    }
+    .clients_inner_item_box_info {
+        font-size: 16px;
+    }
+    .clients_inner_item_box {
+        max-width: 235px;
+    }
+    .clients_inner {
+        margin-bottom: 20px;
+    }
+    .partners_inner_item {
+        width: 100%;
+    }
+    .clients {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .place_map iframe {
+        width: 285px;
+        height: 200px;
+    }
+    .place_box {
+        max-width: 300px;
+    }
+    .place_box_inner {
+        display: block;
+    }
+}
+
+@media (max-width: 439px) {
+    .footer_inner_name {
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 399px) {
+    .header_logo {
+        width: 150px;
+        height: 150px;
+        & img {
+            margin-top: 11px;
+        }
+    }
+    .header_menu_list li {
+        display: block;
+        & + li {
+            margin-left: 0;
+        }
+    }
+    .main_box_title {
+        margin-bottom: 15px;
+    }
+    .main_box_subtitle {
+        margin-bottom: 30px;
+    }
+    .main_box {
+        top: 140px;
+    }
+    .main_categories_btn, 
+    .bestsellers_btn a,
+    .clients_btn a {
+        padding: 15px 10px;
+        font-size: 25px;
+    }
+    .main_categories_inner {
+        margin-bottom: 20px;
+        width: 290px;
+    }
+    .main_categories_inner_veget, 
+    .main_categories_inner_fruit, 
+    .main_categories_inner_meat {
+       max-width: 280px;
+    }
+    .honey_sales {
+        margin-top: 1220px;
+    }
+    .offer_box {
+        padding: 20px;
+    }
+    .process_inner_box_text,
+    .process_inner_box_list,
+    .workers_subtitle {
+        font-size: 22px;
+    }
+    .process_inner_box_list li {
+        margin-top: 45px;
+    }
+    .process_inner_box_text {
+        line-height: 34px;
+    }
+    .place_box {
+        padding-left: 10px;
+        padding-right: 10px;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .footer_inner_name {
+        font-size: 48px;
+        line-height: 55px;
+    }
+    .footer_inner_address_place {
+        font-size: 18px;
+    }
+    .footer_inner_address_title {
+        font-size: 22px;
+    }
+    .footer_inner_name {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .footer_inner {
+        padding-bottom: 50px;
+    }
+}

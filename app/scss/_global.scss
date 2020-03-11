@@ -27,7 +27,7 @@ body {
     font-weight: 400;
     font-size: 25px;
     background-image: url(../images/content/main_bg.jpg);
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -52,7 +52,7 @@ body {
     margin: 0 auto;
 }
 .container_fluid {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -64,6 +64,7 @@ body {
     text-align: center;
     border: 1px solid transparent;
     text-transform: uppercase;
+    transition: all .5s;
     &:hover {
         color: #c7141d;
         background-color: #fff;
